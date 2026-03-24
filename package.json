@@ -6,11 +6,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "tsx server.ts"
+  },
   "dependencies": {
     "@types/express": "^5.0.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pdfkit": "^0.18.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0"
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0"
   }
 }
